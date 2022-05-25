@@ -10,6 +10,7 @@ export default function Pickup() {
         slidesPerView={'auto'}
         loop={true}
         centeredSlides={true}
+        className={styles.slider}
         >
         <SwiperSlide className={styles.item}>
           item
